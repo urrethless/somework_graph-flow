@@ -128,6 +128,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.025;entryY=0.397;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157" y="280" as="sourcePoint" />
+            <mxPoint x="160.0000000000001" y="185.8800000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="97" y="300" />
+              <mxPoint x="47" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-34" value="作为冷启动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M-SUchnxi3PSNPmgI4qZ-32">
+          <mxGeometry x="-0.1348" y="-9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
