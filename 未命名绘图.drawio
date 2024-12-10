@@ -15,10 +15,10 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="输入:题目集合" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="161" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M-SUchnxi3PSNPmgI4qZ-0" value="d1:步骤记忆知识点总结提取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-0" value="d1:步骤级记忆知识点总结提取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M-SUchnxi3PSNPmgI4qZ-2" value="d2:batch内循环总结" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-2" value="d2:四级标签下batch内循环总结" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-3" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M-SUchnxi3PSNPmgI4qZ-8">
@@ -49,7 +49,7 @@
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-9" value="d4:判断一个题目是不是仅能通过记忆解答" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="260" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M-SUchnxi3PSNPmgI4qZ-10" value="d5:后面的题目的记忆点与前面保证一致" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-10" value="d5:后面标签的记忆点相似的映射到前面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="380" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-13" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M-SUchnxi3PSNPmgI4qZ-2">
@@ -105,7 +105,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-SUchnxi3PSNPmgI4qZ-24" value="输出:所有要记忆的知识点、每个题是不是可以通过解答和记忆点标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-24" value="输出:所有要记忆的知识点、每个题是不是可以通过记忆解答和记忆知识点标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-26" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M-SUchnxi3PSNPmgI4qZ-24">
