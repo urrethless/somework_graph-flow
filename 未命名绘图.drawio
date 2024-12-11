@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.1">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="792" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -43,14 +43,11 @@
             <mxPoint x="-10" y="29" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-SUchnxi3PSNPmgI4qZ-8" value="d3:记忆知识点Annoy构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="380" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-9" value="d4:判断一个题目是不是仅能通过记忆解答" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="260" width="120" height="40" as="geometry" />
+          <mxGeometry x="410" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-10" value="d5:后面标签的记忆点相似的映射到前面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="380" width="120" height="40" as="geometry" />
+          <mxGeometry x="410" y="380" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-13" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M-SUchnxi3PSNPmgI4qZ-2">
           <mxGeometry relative="1" as="geometry">
@@ -98,33 +95,36 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-SUchnxi3PSNPmgI4qZ-23" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-23" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M-SUchnxi3PSNPmgI4qZ-8" target="M-SUchnxi3PSNPmgI4qZ-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="399.72" as="sourcePoint" />
-            <mxPoint x="360" y="399.72" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="210" y="420" as="sourcePoint" />
+            <mxPoint x="270" y="484.72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="420" />
+              <mxPoint x="220" y="485" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-24" value="输出:所有要记忆的知识点、每个题是不是可以通过记忆解答和记忆知识点标签" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-26" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M-SUchnxi3PSNPmgI4qZ-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="279.72" as="sourcePoint" />
-            <mxPoint x="560" y="279.72" as="targetPoint" />
+            <mxPoint x="530" y="279.72" as="sourcePoint" />
+            <mxPoint x="610" y="279.72" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="280" />
-              <mxPoint x="520" y="340" />
+              <mxPoint x="570" y="280" />
+              <mxPoint x="570" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="M-SUchnxi3PSNPmgI4qZ-28" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M-SUchnxi3PSNPmgI4qZ-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="289.72" as="sourcePoint" />
-            <mxPoint x="570" y="340" as="targetPoint" />
+            <mxPoint x="540" y="289.72" as="sourcePoint" />
+            <mxPoint x="620" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="400" />
-              <mxPoint x="520" y="340" />
+              <mxPoint x="570" y="400" />
+              <mxPoint x="570" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -142,6 +142,41 @@
           <mxGeometry x="-0.1348" y="-9" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M-SUchnxi3PSNPmgI4qZ-37" target="M-SUchnxi3PSNPmgI4qZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-40" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M-SUchnxi3PSNPmgI4qZ-39">
+          <mxGeometry x="-0.3556" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M-SUchnxi3PSNPmgI4qZ-37" target="M-SUchnxi3PSNPmgI4qZ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-44" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M-SUchnxi3PSNPmgI4qZ-43">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-37" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;是否存在相似或者交叉&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="450" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-38" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="M-SUchnxi3PSNPmgI4qZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="420" as="sourcePoint" />
+            <mxPoint x="280" y="485" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-8" value="d3:记忆知识点向量库构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="161" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M-SUchnxi3PSNPmgI4qZ-41" target="M-SUchnxi3PSNPmgI4qZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-SUchnxi3PSNPmgI4qZ-41" value="LLM合并两个" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="465" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
